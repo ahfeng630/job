@@ -1,18 +1,1 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="refresh" content="5;url=wa.link/qiuzhiyuan">
-</head>
-<body>
-    <script>
-        if(!localStorage.getItem('wa_consent')){
-            if(confirm("⚠️ 请确认：\n\n通过WhatsApp接收消息（含促销资讯）\n回复STOP退订")){
-                localStorage.setItem('wa_consent','true');
-            }else{
-                window.stop();
-            }
-        }
-    </script>
-    <p>正在跳转中，请勿关闭...</p>
-</body>
-</html>
+
